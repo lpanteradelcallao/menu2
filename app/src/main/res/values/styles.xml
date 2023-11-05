@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EditTextRounded">
+        <item name="android:background">@drawable/custom_edittext</item>
+    </style>
+
+    <!-- Agrega más estilos personalizados según tus necesidades -->
+
+</resources>

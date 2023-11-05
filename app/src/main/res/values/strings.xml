@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="listview">Una vista de lista es una vista de adaptador que no conoce los detalles, como el tipo y el contenido, de las vistas que contiene.
+        En su lugar, la vista de lista solicita vistas a pedido desde un ListAdapter según sea necesario, como para mostrar nuevas vistas como
+        el usuario se desplaza hacia arriba o hacia abajo. Para mostrar elementos en la lista, llame a setAdapter(android.widget.ListAdapter)
+        para asociar un adaptador con la lista. Para ver un ejemplo sencillo, consulte la discusión sobre cómo llenar una vista de adaptador.
+        con texto en la guía de Diseños.</string>
+    <string name="checkbox">Las casillas de verificación permiten al usuario seleccionar una o más opciones de un conjunto.
+    Típicamente, debes presentar cada opción de casilla de verificación en una lista vertical. Para crear cada opción de casilla de verificación,
+    crea un CheckBox en tu diseño. Debido a que un conjunto de opciones de casilla de verificación permite al usuario seleccionar varios elementos,
+    cada casilla de verificación se administra de manera independiente y debes registrar un listener de clic para cada una.</string>
+    <string name="imageview">La clase ImageView se utiliza para mostrar cualquier tipo de recurso de imagen en la aplicación de Android,
+    ya sea un android.graphics.Bitmap o un android.graphics.drawable.Drawable
+    (es una abstracción general para cualquier cosa que se pueda dibujar en Android).
+    La clase ImageView o android.widget.ImageView hereda de la clase android.view.View, que es una subclase de Kotlin. Una aplicación típica de ImageView también incluye la aplicación de tintes a una imagen para reutilizar un
+    recurso drawable y crear superposiciones en imágenes de fondo. Además, ImageView se utiliza para controlar el tamaño y el movimiento de una imagen.</string>
+    <string name="toggle">Un botón de alternar permite al usuario cambiar una configuración entre dos estados.
+    Puedes agregar un botón de alternar básico a tu diseño con el objeto ToggleButton.
+    Android 4.0 (nivel de API 14) introduce otro tipo de botón de alternar llamado "switch" que proporciona
+    un control deslizante, que puedes agregar con un objeto Switch.</string>
+    <string name="date">Un envoltorio delgado alrededor de un valor de milisegundos que permite a JDBC identificarlo como un valor de SQL DATE.
+    Un valor de milisegundos representa la cantidad de milisegundos que han transcurrido desde el 1 de enero de 1970 a las 00:00:00.000 GMT.
+    Para cumplir con la definición de SQL DATE, los valores de milisegundos envueltos por una instancia de java.sql.Date
+    deben normalizarse configurando las horas, minutos, segundos y milisegundos a cero en la zona horaria particular con la que está asociada la instancia.</string>
+    <string name="rating">Un RatingBar es una extensión de SeekBar y ProgressBar que muestra una calificación en estrellas.
+    El usuario puede tocar/arrastrar o utilizar las teclas de flecha para establecer la calificación al usar el tamaño predeterminado de RatingBar.
+    El estilo de RatingBar más pequeño (R.attr.ratingBarStyleSmall) y el estilo de solo indicador más grande
+    (R.attr.ratingBarStyleIndicator) no admiten la interacción del usuario y solo deben utilizarse como indicadores.
+    Cuando se utiliza un RatingBar que admite la interacción del usuario, se desaconseja colocar widgets a la izquierda o a la derecha del RatingBar.</string>
+    <string name="time">Un envoltorio delgado alrededor de la clase java.util.Date que permite que la API de JDBC lo identifique
+    como un valor de SQL TIME. La clase Time agrega operaciones de formato y análisis para admitir la sintaxis de escape de JDBC
+    para valores de tiempo. Los componentes de la fecha deben configurarse en el valor del "época cero" del 1 de enero de 1970 y no deben accederse.</string>
+    <string name="textview">Un TextView muestra texto al usuario y, opcionalmente, le permite editarlo.
+    Un TextView es un editor de texto completo, sin embargo, la clase básica está configurada para no permitir la edición.</string>
+    <string name="edit">Un TextView muestra texto al usuario y, opcionalmente, le permite editarlo.
+    Un TextView es un editor de texto completo, sin embargo, la clase básica está configurada para no permitir la edición.</string>
+
+
+    <string name="camera">The Android framework includes support for various cameras and camera features available on devices, allowing you to capture pictures and videos in your applications.This document discusses a quick, simple approach to image and video capture and outlines an advanced approach for creating custom camera experiences for your users.</string>
+    <string name="app_name">My APPLICACION</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+
+</resources>
+
