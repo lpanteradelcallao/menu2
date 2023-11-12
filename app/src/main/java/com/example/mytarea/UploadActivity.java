@@ -77,7 +77,7 @@ public class UploadActivity extends AppCompatActivity {
             }
         });
 
-        // Agrega las siguientes líneas para inicializar el datepicker en el campo uploadLang
+
         uploadLang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -151,8 +151,6 @@ public class UploadActivity extends AppCompatActivity {
 
         DataClass dataClass = new DataClass(title, desc, lang, imageURL);
 
-        //We are changing the child from title to currentDate,
-        // because we will be updating title as well and it may affect child value.
 
 
 
