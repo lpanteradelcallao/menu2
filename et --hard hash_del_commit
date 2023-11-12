@@ -1,0 +1,23 @@
+[33mcommit b0fce6220b55415363f17bdd605733cd0fd58d45[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: zsavitar <fredd.tec2@gmail.com>
+Date:   Sun Nov 12 12:56:39 2023 -0500
+
+    Modifica InformacionFragmento, TareaFragmento y UploadActivity
+
+[33mcommit 99715979217b86bf86a0f5a70bdb89960f616eef[m
+Author: zsavitar <fredd.tec2@gmail.com>
+Date:   Sun Nov 12 12:56:16 2023 -0500
+
+    Añade MyAdapter y recycler_item.xml
+
+[33mcommit 71f18c4b579d9f9a321c5839e0bb2eb9bc6dc1ec[m[33m ([m[1;31morigen/master[m[33m, [m[1;31mgithub/master[m[33m)[m
+Author: zsavitar <fredd.tec2@gmail.com>
+Date:   Sun Nov 12 12:28:28 2023 -0500
+
+    nuevo
+
+[33mcommit 0944bd8d11642fa5027b142ca7ef4e391f041c4d[m
+Author: zsavitar <fredd.tec2@gmail.com>
+Date:   Sun Nov 5 11:32:09 2023 -0500
+
+    Initial commit
