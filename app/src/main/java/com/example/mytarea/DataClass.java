@@ -1,44 +1,16 @@
 package com.example.mytarea;
 
 
-import android.os.Parcel;
-import android.os.Parcelable;
 
-public class DataClass implements Parcelable {
-    private int dataImage;
+
+public class DataClass {
+
     private String dataTitle;
     private String dataDesc;
-    private int dataDetailImage;
+    private String dataLang;
+    private String dataImage;
 
-    public DataClass(int dataImage, String dataTitle, String dataDesc, int dataDetailImage) {
-        this.dataImage = dataImage;
-        this.dataTitle = dataTitle;
-        this.dataDesc = dataDesc;
-        this.dataDetailImage = dataDetailImage;
-    }
 
-    protected DataClass(Parcel in) {
-        dataImage = in.readInt();
-        dataTitle = in.readString();
-        dataDesc = in.readString();
-        dataDetailImage = in.readInt();
-    }
-
-    public static final Creator<DataClass> CREATOR = new Creator<DataClass>() {
-        @Override
-        public DataClass createFromParcel(Parcel in) {
-            return new DataClass(in);
-        }
-
-        @Override
-        public DataClass[] newArray(int size) {
-            return new DataClass[size];
-        }
-    };
-
-    public int getDataImage() {
-        return dataImage;
-    }
 
     public String getDataTitle() {
         return dataTitle;
@@ -48,20 +20,21 @@ public class DataClass implements Parcelable {
         return dataDesc;
     }
 
-    public int getDataDetailImage() {
-        return dataDetailImage;
+    public String getDataLang() {
+        return dataLang;
     }
 
-    @Override
-    public int describeContents() {
-        return 0;
+    public String getDataImage() {
+        return dataImage;
     }
 
-    @Override
-    public void writeToParcel(Parcel dest, int flags) {
-        dest.writeInt(dataImage);
-        dest.writeString(dataTitle);
-        dest.writeString(dataDesc);
-        dest.writeInt(dataDetailImage);
+    public DataClass(String dataTitle, String dataDesc, String dataLang, String dataImage) {
+        this.dataTitle = dataTitle;
+        this.dataDesc = dataDesc;
+        this.dataLang = dataLang;
+        this.dataImage = dataImage;
+    }
+    public DataClass(){
+
     }
 }

@@ -48,7 +48,7 @@
                 android:background="@drawable/lavender_border"
                 android:layout_marginTop="20dp"
                 android:padding="16dp"
-                android:hint="Ingresa el curso"
+                android:hint="Enter topic name"
                 android:gravity="start|center_vertical"
                 android:textColor="@color/lavender"/>
 
@@ -59,7 +59,7 @@
                 android:background="@drawable/lavender_border"
                 android:layout_marginTop="20dp"
                 android:padding="16dp"
-                android:hint="Ingresa actividad"
+                android:hint="Enter descripcion"
                 android:gravity="start|center_vertical"
                 android:textColor="@color/lavender"/>
 
@@ -70,19 +70,18 @@
                 android:background="@drawable/lavender_border"
                 android:layout_marginTop="20dp"
                 android:padding="16dp"
-                android:hint="Ingresa fecha limite"
+                android:hint="Enter fecha"
                 android:gravity="start|center_vertical"
                 android:textColor="@color/lavender"/>
 
             <Button
-                android:id="@+id/saveButton"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginTop="20dp"
-                android:text="Guardar"
+                android:text="Save"
+                android:id="@+id/saveButton"
                 android:textSize="18sp"
-                app:backgroundTint="#009688"
-                app:cornerRadius="20dp" />
+                android:layout_marginTop="20dp"
+                app:cornerRadius = "20dp"/>
 
         </LinearLayout>
 
